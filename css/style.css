@@ -96,13 +96,18 @@ body {
 .block-orange {
   background-color: orange;
   float: left;
-  margin-right: 25%;
+
+}
+
+.group-pink {
+  float: right;
 }
 
 .block-pink {
   background-color: pink;
+  margin: 10px;
   float: left;
-  margin-left: 20px;
+
 }
 
 .group-three {
@@ -129,8 +134,8 @@ body {
   float: left;
 }
 
-.block-lightblue:nth-child(2) {
-  margin-right: 200px;
+.group-yellow {
+  float: right;
 }
 
 .block-yellow {
@@ -154,22 +159,26 @@ body {
   font-size: 5rem;
   padding-top: 80px;
   border: 2px solid black;
-  margin: 10px;
   background-color: darksalmon;
   float: left;
-  margin-left: calc(25% - 100px)
+  margin-left: calc(25% - 40px);
+}
+
+.group-darkcyan {
+  width: 200px;
+  float: right;
+  margin-right: calc(25% - 40px);
 }
 
 .block-darkcyan {
-  width: 300px;
+  width: 200px;
   height: 140px;
   text-align: center;
   font-size: 5rem;
   padding-top: 25px;
   border: 2px solid black;
-  margin: 10px;
+  margin-bottom: 20px;
   background-color: darkcyan;
-  float: left;
 }
 
 .group-five {
@@ -192,6 +201,11 @@ body {
   background-color: chartreuse;
   float: left;
   margin-left: 30%;
+}
+
+.group-fuchsia {
+  width: 300px;
+  float: right;
 }
 
 .block-fuchsia {
