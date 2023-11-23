@@ -166,8 +166,8 @@ body {
 
 .group-darkcyan {
   width: 200px;
-  float: right;
-  margin-right: calc(25% - 40px);
+  float: left;
+  margin-left: 15px;
 }
 
 .block-darkcyan {
@@ -182,7 +182,7 @@ body {
 }
 
 .group-five {
-  margin: 0 auto;
+  margin: 0 0 0 auto;
   background-color: white;
   width: 80%;
   height: fit-content;
@@ -197,15 +197,15 @@ body {
   font-size: 5rem;
   padding-top: 80px;
   border: 2px solid black;
-  margin: 10px;
   background-color: chartreuse;
   float: left;
-  margin-left: 30%;
+  margin-left: 300px;
 }
 
 .group-fuchsia {
   width: 300px;
-  float: right;
+  float: left;
+  margin-left: 15px;
 }
 
 .block-fuchsia {
@@ -215,9 +215,8 @@ body {
   font-size: 5rem;
   padding-top: 25px;
   border: 2px solid black;
-  margin: 10px;
   background-color: fuchsia;
-  float: left;
+  margin-bottom: 15px;
 }
 
 /*Footer*/
