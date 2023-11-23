@@ -54,7 +54,6 @@ body {
   border: 4px solid rgb(135, 6, 129);
 }
 
-
 .block {
   width: 20%;
   height: 96%;
@@ -74,49 +73,49 @@ body {
   float: right;
 }
 
-
 .block--orange {
+  width: 30%;
   background-color: orange;
   float: left;
 }
 
 .group--pink {
-  width: 50%;
+  width: 33%;
   height: 98%;
   float: right;
-  margin-right: 0;
+  margin-right: -15px;
 }
 
 .block--pink {
-  width: 25%;
+  width: 27%;
   background-color: pink;
-  float: right;
+  float: left;
   margin-left: 15px;
 }
 
 .group__left {
-  width: 50%;
+  width: 30%;
   height: 100%;
   float: left;
 }
 
 .group__rigth {
-  width: 50%;
+  width: 30%;
   height: 100%;
   float: right;
 }
 
 .block--lightblue {
-  width: 25%;
+  width: 43%;
   background-color: lightblue;
   float: left;
   margin-right: 15px;
 }
 
 .block--yellow {
-  width: 25%;
+  width: 43%;
   background-color: yellow;
-  float: right;
+  float: left;
   margin-left: 15px;
 }
 
