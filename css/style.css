@@ -38,185 +38,138 @@ body {
 }
 
 .subtitle {
+  width: 80%;
+  margin: 0 auto;
   font-size: 2rem;
   padding: 20px 40px;
   text-align: center;
 }
 
-.group-one {
+.group {
   margin: 0 auto;
   background-color: white;
   width: 80%;
-  height: fit-content;
-  padding: 40px;
+  height: 300px;
+  padding: 2%;
   border: 4px solid rgb(135, 6, 129);
 }
 
-.group-one .block {
-  width: 200px;
-  height: 200px;
+
+.block {
+  width: 20%;
+  height: 96%;
   text-align: center;
   font-size: 5rem;
   padding-top: 50px;
   border: 2px solid black;
 }
 
-.block-green {
+.block--green {
   background-color: green;
   float: left;
 }
 
-.block-blue {
+.block--blue {
   background-color: blue;
   float: right;
 }
 
-.clearfix {
-  clear: both;
-}
 
-.group-two {
-  margin: 0 auto;
-  background-color: white;
-  width: 80%;
-  height: fit-content;
-  padding: 40px;
-  border: 4px solid rgb(135, 6, 129);
-}
-
-.group-two .block {
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  font-size: 5rem;
-  padding-top: 25px;
-  border: 2px solid black;
-}
-
-.block-orange {
+.block--orange {
   background-color: orange;
   float: left;
-
 }
 
-.group-pink {
+.group--pink {
+  width: 50%;
+  height: 98%;
+  float: right;
+  margin-right: 0;
+}
+
+.block--pink {
+  width: 25%;
+  background-color: pink;
+  float: right;
+  margin-left: 15px;
+}
+
+.group__left {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.group__rigth {
+  width: 50%;
+  height: 100%;
   float: right;
 }
 
-.block-pink {
-  background-color: pink;
-  margin: 10px;
-  float: left;
-
-}
-
-.group-three {
-  margin: 0 auto;
-  background-color: white;
-  width: 80%;
-  height: fit-content;
-  padding: 40px;
-  border: 4px solid rgb(135, 6, 129);
-}
-
-.group-three .block {
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  font-size: 5rem;
-  padding-top: 25px;
-  border: 2px solid black;
-  margin: 10px;
-}
-
-.block-lightblue {
+.block--lightblue {
+  width: 25%;
   background-color: lightblue;
   float: left;
+  margin-right: 15px;
 }
 
-.group-yellow {
-  float: right;
-}
-
-.block-yellow {
+.block--yellow {
+  width: 25%;
   background-color: yellow;
-  float: left;
+  float: right;
+  margin-left: 15px;
 }
 
-.group-four {
+.group__item {
+  width: 50%;
+  height: 98%;
   margin: 0 auto;
-  background-color: white;
-  width: 80%;
-  height: fit-content;
-  padding: 40px;
-  border: 4px solid rgb(135, 6, 129);
 }
 
-.block-darksalmon {
-  width: 300px;
-  height: 300px;
-  text-align: center;
-  font-size: 5rem;
-  padding-top: 80px;
-  border: 2px solid black;
-  background-color: darksalmon;
+.block--darksalmon {
+  width: 48%;
   float: left;
-  margin-left: calc(25% - 40px);
+  background-color: darksalmon;
 }
 
 .group-darkcyan {
-  width: 200px;
-  float: left;
-  margin-left: 15px;
+  width: 48%;
+  height: 98%;
+  float: right;
 }
 
-.block-darkcyan {
-  width: 200px;
-  height: 140px;
-  text-align: center;
-  font-size: 5rem;
-  padding-top: 25px;
-  border: 2px solid black;
-  margin-bottom: 20px;
+.block--darkcyan {
+  width: 100%;
+  height: 48%;
   background-color: darkcyan;
+  float: right;
+  padding-top: 15px;
+  margin-bottom: 10px;
 }
 
-.group-five {
-  margin: 0 0 0 auto;
-  background-color: white;
-  width: 80%;
-  height: fit-content;
-  padding: 40px;
-  border: 4px solid rgb(135, 6, 129);
+.group__item--right {
+  float: right;
 }
 
-.block-chartreuse {
-  width: 300px;
-  height: 300px;
-  text-align: center;
-  font-size: 5rem;
-  padding-top: 80px;
-  border: 2px solid black;
-  background-color: chartreuse;
+.block--chartreuse {
+  width: 48%;
   float: left;
-  margin-left: 300px;
+  background-color: chartreuse;
 }
 
 .group-fuchsia {
-  width: 300px;
-  float: left;
-  margin-left: 15px;
+  width: 48%;
+  height: 98%;
+  float: right;
 }
 
-.block-fuchsia {
-  width: 300px;
-  height: 140px;
-  text-align: center;
-  font-size: 5rem;
-  padding-top: 25px;
-  border: 2px solid black;
+.block--fuchsia {
+  width: 100%;
+  height: 48%;
   background-color: fuchsia;
-  margin-bottom: 15px;
+  float: right;
+  padding-top: 15px;
+  margin-bottom: 10px;
 }
 
 /*Footer*/
